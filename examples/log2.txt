@@ -1,0 +1,38 @@
+Simple Audio FAX to Audio FAX test
+Using without ECM
+B: Tx frame: CSI, len=23
+B: Tx frame: DIS, len=13
+A: Rx frame: CSI, len=23
+A: Rx frame: DIS, len=13
+A: Phase B handler - (0x80) DIS
+A: Tx frame: TSI, len=23
+A: Tx frame: DCS, len=6
+B: Rx frame: TSI, len=23
+B: Rx frame: DCS, len=6
+B: Phase B handler - (0x83) DCS
+B: Tx frame: CFR, len=3
+A: Rx frame: CFR, len=3
+A: Tx frame: EOP, len=3
+B: Rx frame: EOP, len=3
+B: Phase D handler - (0x2E) EOP
+B: Tx frame: MCF, len=3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: DCN, len=3
+B: Rx frame: DCN, len=3
+B: Phase E handler - (0) OK
+A: Phase E handler - (0) OK
+Expected 1 pages to be transferred
+FAX call statistics for node A (Caller/Sender):
+  Pages transferred:  1
+  Image size:         1728 x 400 pixels
+  Image resolution:   8040 x 3850 DPI
+  Transfer Rate:      14400 bps
+  ECM used:           no
+FAX call statistics for node B (Called/Receiver):
+  Pages transferred:  1
+  Image size:         1728 x 400 pixels
+  Image resolution:   8040 x 3850 DPI
+  Transfer Rate:      14400 bps
+  ECM used:           no
+Test completed successfully

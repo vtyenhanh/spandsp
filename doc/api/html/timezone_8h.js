@@ -1,0 +1,28 @@
+var timezone_8h =
+[
+    [ "tz_t", "timezone_8h.html#a92b988a7adee1c1755183da3d021116e", null ],
+    [ "TM_SUNDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469a29a8f5262d42f4713ecf5d2d7825d6e7", null ],
+    [ "TM_MONDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469af6f62ff4669b128fa4c8158026dc3a5a", null ],
+    [ "TM_TUESDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469a9866330e6125574332af0c46a4269766", null ],
+    [ "TM_WEDNESDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469affd078ce14152cf4b94146c9e95ce247", null ],
+    [ "TM_THURSDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469ae7dba7c8639e12eaddb96e8f0e81b7a7", null ],
+    [ "TM_FRIDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469abd0acb5840793e30b0999edfdafc4aba", null ],
+    [ "TM_SATURDAY", "timezone_8h.html#a10e74d65d7876276a8f6061c71dcf469ab21337a0f55387fbcf52a124402a7120", null ],
+    [ "TM_JANUARY", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca0929927f27f7a3b8207cd18381b1ad6f", null ],
+    [ "TM_FEBRUARY", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cade06885eac04427a8d6b7b5f6f9138f4", null ],
+    [ "TM_MARCH", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca58832ef08b39278ed0b7dd534f820723", null ],
+    [ "TM_APRIL", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca724a8bae11bbc182cffd905e23a20a93", null ],
+    [ "TM_MAY", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca1e2d2e0e671b6cc9675d52e538d4b2e8", null ],
+    [ "TM_JUNE", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cae48fbb95b9ef17415d590f851b0ca4e8", null ],
+    [ "TM_JULY", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cad40cdd280cccf400c7d23aabdd341b7e", null ],
+    [ "TM_AUGUST", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cae8e31b1d67f18232e6b4f63a8ae89440", null ],
+    [ "TM_SEPTEMBER", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1caa0807b03643d3c65715f5b7b7be2dc60", null ],
+    [ "TM_OCTOBER", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca8bccfecc531db485dfbed653901df5d2", null ],
+    [ "TM_NOVEMBER", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca94f112a27582b9cd8c6d89c70251d1a3", null ],
+    [ "TM_DECEMBER", "timezone_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca3384d7cecfce085cc4fab4a97b838765", null ],
+    [ "tz_free", "timezone_8h.html#a3a05d6064b31ce58fae19b10e3b3446b", null ],
+    [ "tz_init", "timezone_8h.html#a403386f572341207bac02efa8de6d45b", null ],
+    [ "tz_localtime", "timezone_8h.html#a02abf54edaac499883ac539f31123545", null ],
+    [ "tz_release", "timezone_8h.html#a845ad5ef416972858ed77bcf5e46dcc7", null ],
+    [ "tz_tzname", "timezone_8h.html#a815837eaeb37babceb1598f04f20f608", null ]
+];

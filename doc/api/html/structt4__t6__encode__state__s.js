@@ -1,0 +1,27 @@
+var structt4__t6__encode__state__s =
+[
+    [ "bit_pos", "structt4__t6__encode__state__s.html#a572387b16307d36a7c99a880e796095d", null ],
+    [ "bitstream", "structt4__t6__encode__state__s.html#a8d469f05f3b932078b4f96899f94c21b", null ],
+    [ "bitstream_iptr", "structt4__t6__encode__state__s.html#a8e96b35746235569dca67a6cfaa0fd1c", null ],
+    [ "bitstream_optr", "structt4__t6__encode__state__s.html#a6aff83050a4ed2bb36fac7cc28e5c8a8", null ],
+    [ "bytes_per_row", "structt4__t6__encode__state__s.html#a08f05989ff6c4d9e3db254578910e26c", null ],
+    [ "compressed_image_size", "structt4__t6__encode__state__s.html#a48b6af32b89ee791c153dcb547c9532e", null ],
+    [ "cur_runs", "structt4__t6__encode__state__s.html#a26a180b8b99a5d4f5acccd6f79ab34b4", null ],
+    [ "encoding", "structt4__t6__encode__state__s.html#aff5f77ab9461f9c0e84f1de4b2e91d30", null ],
+    [ "image_length", "structt4__t6__encode__state__s.html#abebd211c94637bbfe975afd093b6b429", null ],
+    [ "image_width", "structt4__t6__encode__state__s.html#a0569757a63535c7c9c0e06ab8e46de18", null ],
+    [ "logging", "structt4__t6__encode__state__s.html#a932ee9187c194701faa393b9a51dd325", null ],
+    [ "max_row_bits", "structt4__t6__encode__state__s.html#ab771ae2ac3f82d3b28cc1f8b7817ea1a", null ],
+    [ "max_rows_to_next_1d_row", "structt4__t6__encode__state__s.html#a33b86629b33ee18479b3323570f78199", null ],
+    [ "min_bits_per_row", "structt4__t6__encode__state__s.html#a130f262fa4236ce0a8276a290ad68f07", null ],
+    [ "min_row_bits", "structt4__t6__encode__state__s.html#a26858c20c486970da7e62500e48397fa", null ],
+    [ "ref_runs", "structt4__t6__encode__state__s.html#a49578c599bbdacfc35e33e7cd94beeb1", null ],
+    [ "ref_steps", "structt4__t6__encode__state__s.html#a7689383a42350fb4684f0acf4fe239c0", null ],
+    [ "row_bits", "structt4__t6__encode__state__s.html#a8d47559e01e67cea93caca37abe365f0", null ],
+    [ "row_is_2d", "structt4__t6__encode__state__s.html#a9c15cbceb1fa404fd829b8c4cfce8340", null ],
+    [ "row_read_handler", "structt4__t6__encode__state__s.html#a90ba23168cd7d058ccc05aa25e886091", null ],
+    [ "row_read_user_data", "structt4__t6__encode__state__s.html#a2bb313c132f6c9f24061ab308e5f1366", null ],
+    [ "rows_to_next_1d_row", "structt4__t6__encode__state__s.html#a226a1647b24bf89b764482c26db8fa58", null ],
+    [ "tx_bits", "structt4__t6__encode__state__s.html#a3cf2edc7f24b47bfd375d6781aa962a3", null ],
+    [ "tx_bitstream", "structt4__t6__encode__state__s.html#a161b853d93023c912e061fbfe313158f", null ]
+];

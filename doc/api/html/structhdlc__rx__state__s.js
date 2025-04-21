@@ -1,0 +1,26 @@
+var structhdlc__rx__state__s =
+[
+    [ "buffer", "structhdlc__rx__state__s.html#a0a740c309be52802031fdaf814d58480", null ],
+    [ "byte_in_progress", "structhdlc__rx__state__s.html#a9007fb1779ce55446378e96a0a233fa6", null ],
+    [ "crc_bytes", "structhdlc__rx__state__s.html#ad1693d78e2d5df7516ca280c94c89517", null ],
+    [ "flags_seen", "structhdlc__rx__state__s.html#ab760d2e4843e1f72ecd394597ae9e82b", null ],
+    [ "frame_handler", "structhdlc__rx__state__s.html#aa4b12ab88d51c3e7682065731ab670e0", null ],
+    [ "frame_user_data", "structhdlc__rx__state__s.html#ab62c17f77d3d1779d6cdac817a1cc66b", null ],
+    [ "framing_ok_announced", "structhdlc__rx__state__s.html#a18eaa7ef16ea8d37ed32f460c5c4f2e8", null ],
+    [ "framing_ok_threshold", "structhdlc__rx__state__s.html#a094ce264380cc70dd0ea64dcda504a4d", null ],
+    [ "len", "structhdlc__rx__state__s.html#a02f4d04f1110f97032779859b0e5cb07", null ],
+    [ "max_frame_len", "structhdlc__rx__state__s.html#abe3d724ec6f04ee36ad1bfe40434cc11", null ],
+    [ "num_bits", "structhdlc__rx__state__s.html#ae1df6e36362090beb3d2a38187386db3", null ],
+    [ "octet_count", "structhdlc__rx__state__s.html#ae9209c51185b35894bc1388a57ce0391", null ],
+    [ "octet_count_report_interval", "structhdlc__rx__state__s.html#ae677fb9a369894620f23558a32b90522", null ],
+    [ "octet_counting_mode", "structhdlc__rx__state__s.html#abce18f5343e3fe66327c1dcdfaa6b63f", null ],
+    [ "raw_bit_stream", "structhdlc__rx__state__s.html#ae629cadc4f16a6d2f95561aa5f288be3", null ],
+    [ "report_bad_frames", "structhdlc__rx__state__s.html#a7963b2a68314f0307d629b400b49e989", null ],
+    [ "rx_aborts", "structhdlc__rx__state__s.html#a820d759366ae83e2d78925150ec425c2", null ],
+    [ "rx_bytes", "structhdlc__rx__state__s.html#ab5603ade097ea64a4f69ad67f8ac480b", null ],
+    [ "rx_crc_errors", "structhdlc__rx__state__s.html#a1bd6115166ac196c86b1742d3a415963", null ],
+    [ "rx_frames", "structhdlc__rx__state__s.html#af8439fff5cd9bcfc4dde8a563a407146", null ],
+    [ "rx_length_errors", "structhdlc__rx__state__s.html#ad2727a89239c172a976d4cd27b491f67", null ],
+    [ "status_handler", "structhdlc__rx__state__s.html#ac51bd180d585ac02559d558e73086508", null ],
+    [ "status_user_data", "structhdlc__rx__state__s.html#a99e5a1c838183e635678de59f2fdcb6e", null ]
+];

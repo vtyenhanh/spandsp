@@ -1,0 +1,143 @@
+Gateway FAX test: Audio FAX to T.38 Gateway to T.38 FAX
+Using without ECM
+Using T.38 version 1
+T38: Tx frame: CSI, len=23
+T38: Tx frame: DIS, len=13
+GW: Real time gateway frame - T.38->PSTN, CSI, length = 23
+A: Rx frame: CSI, len=23
+GW: Real time gateway frame - T.38->PSTN, DIS, length = 13
+A: Rx frame: DIS, len=13
+A: Phase B handler - (0x80) DIS
+A: Tx frame: TSI, len=23
+A: Tx frame: DCS, len=6
+GW: Real time gateway frame - PSTN->T.38, TSI, length = 23
+T38: Rx frame: TSI, len=23
+GW: Real time gateway frame - PSTN->T.38, DCS, length = 6
+T38: Rx frame: DCS, len=6
+T38: Phase B handler - (0x83) DCS
+T38: Tx frame: CFR, len=3
+GW: Real time gateway frame - T.38->PSTN, CFR, length = 3
+A: Rx frame: CFR, len=3
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: MPS, len=3
+GW: Real time gateway frame - PSTN->T.38, MPS, length = 3
+T38: Rx frame: MPS, len=3
+T38: Phase D handler - (0x4E) MPS
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: EOP, len=3
+GW: Real time gateway frame - PSTN->T.38, EOP, length = 3
+T38: Rx frame: EOP, len=3
+T38: Phase D handler - (0x2E) EOP
+T38: Tx frame: MCF, len=3
+GW: Real time gateway frame - T.38->PSTN, MCF, length = 3
+A: Rx frame: MCF, len=3
+A: Phase D handler - (0x8C) MCF
+A: Tx frame: DCN, len=3
+GW: Real time gateway frame - PSTN->T.38, DCN, length = 3
+T38: Rx frame: DCN, len=3
+T38: Phase E handler - (0) OK
+A: Phase E handler - (0) OK
+
+Gateway statistics:
+  Pages transferred:  12
+  Bit rate:          14400 bps
+  ECM used:          no
+Expected 12 pages to be transferred
+
+Audio FAX statistics (Sender):
+  Pages transferred:  12
+  Image size:         1728 x 1751 pixels
+  Image resolution:   8040 x 7700 DPI
+  Transfer Rate:      14400 bps
+  ECM used:           no
+
+T.38 FAX statistics (Receiver):
+  Pages transferred:  12
+  Image size:         1728 x 1751 pixels
+  Image resolution:   8040 x 7700 DPI
+  Transfer Rate:      14400 bps
+  ECM used:           no
+
+Test completed successfully

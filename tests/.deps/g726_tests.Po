@@ -1,0 +1,741 @@
+g726_tests.o: g726_tests.c /usr/include/stdc-predef.h ../src/config.h \
+ /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h /usr/include/memory.h \
+ /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/include/ctype.h /usr/include/sndfile.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h ../src/spandsp.h \
+ /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+ /usr/include/x86_64-linux-gnu/tiffio.h \
+ /usr/include/x86_64-linux-gnu/tiff.h \
+ /usr/include/x86_64-linux-gnu/tiffconf.h \
+ /usr/include/x86_64-linux-gnu/tiffvers.h ../src/spandsp/telephony.h \
+ ../src/spandsp/alloc.h ../src/spandsp/unaligned.h \
+ ../src/spandsp/fast_convert.h ../src/spandsp/logging.h \
+ ../src/spandsp/complex.h ../src/spandsp/bit_operations.h \
+ ../src/spandsp/bitstream.h ../src/spandsp/queue.h \
+ ../src/spandsp/agc_float.h ../src/spandsp/schedule.h \
+ ../src/spandsp/g711.h ../src/spandsp/timing.h \
+ ../src/spandsp/math_fixed.h ../src/spandsp/vector_float.h \
+ ../src/spandsp/complex_vector_float.h ../src/spandsp/vector_int.h \
+ ../src/spandsp/complex_vector_int.h ../src/spandsp/arctan2.h \
+ ../src/spandsp/biquad.h ../src/spandsp/fir.h ../src/spandsp/awgn.h \
+ ../src/spandsp/bert.h ../src/spandsp/power_meter.h \
+ ../src/spandsp/complex_filters.h ../src/spandsp/dc_restore.h \
+ ../src/spandsp/dds.h ../src/spandsp/swept_tone.h ../src/spandsp/echo.h \
+ ../src/spandsp/fir.h ../src/spandsp/modem_echo.h ../src/spandsp/crc.h \
+ ../src/spandsp/async.h ../src/spandsp/hdlc.h ../src/spandsp/noise.h \
+ ../src/spandsp/saturated.h ../src/spandsp/time_scale.h \
+ ../src/spandsp/tone_detect.h ../src/spandsp/tone_generate.h \
+ ../src/spandsp/super_tone_rx.h ../src/spandsp/super_tone_tx.h \
+ ../src/spandsp/dtmf.h ../src/spandsp/bell_r2_mf.h \
+ ../src/spandsp/sig_tone.h ../src/spandsp/fsk.h \
+ ../src/spandsp/modem_connect_tones.h ../src/spandsp/silence_gen.h \
+ ../src/spandsp/v8.h ../src/spandsp/v80.h ../src/spandsp/godard.h \
+ ../src/spandsp/v29rx.h ../src/spandsp/v29tx.h ../src/spandsp/v17rx.h \
+ ../src/spandsp/v17tx.h ../src/spandsp/v22bis.h \
+ ../src/spandsp/v27ter_rx.h ../src/spandsp/v27ter_tx.h \
+ ../src/spandsp/v42.h ../src/spandsp/v42bis.h ../src/spandsp/v18.h \
+ ../src/spandsp/timezone.h ../src/spandsp/ssl_fax.h \
+ ../src/spandsp/t4_rx.h ../src/spandsp/t4_tx.h \
+ ../src/spandsp/image_translate.h ../src/spandsp/t4_t6_decode.h \
+ ../src/spandsp/t4_t6_encode.h ../src/spandsp/t81_t82_arith_coding.h \
+ ../src/spandsp/t85.h ../src/spandsp/t42.h ../src/spandsp/t43.h \
+ ../src/spandsp/t30.h ../src/spandsp/t30_api.h ../src/spandsp/t30_fcf.h \
+ ../src/spandsp/t30_logging.h ../src/spandsp/t35.h \
+ ../src/spandsp/at_interpreter.h ../src/spandsp/data_modems.h \
+ ../src/spandsp/fax_modems.h ../src/spandsp/fax.h \
+ ../src/spandsp/t38_core.h ../src/spandsp/t38_non_ecm_buffer.h \
+ ../src/spandsp/t38_gateway.h ../src/spandsp/t38_terminal.h \
+ ../src/spandsp/t31.h ../src/spandsp/adsi.h \
+ ../src/spandsp/ademco_contactid.h ../src/spandsp/oki_adpcm.h \
+ ../src/spandsp/ima_adpcm.h ../src/spandsp/g722.h ../src/spandsp/g726.h \
+ ../src/spandsp/lpc10.h ../src/spandsp/gsm0610.h ../src/spandsp/plc.h \
+ ../src/spandsp/playout.h ../src/spandsp/sprt.h ../src/spandsp/v150_1.h \
+ ../src/spandsp/v150_1_sse.h ../spandsp-sim/spandsp-sim.h \
+ ../spandsp-sim/spandsp/g1050.h ../spandsp-sim/spandsp/rfc2198_sim.h \
+ ../spandsp-sim/spandsp/test_utils.h ../spandsp-sim/spandsp/line_model.h \
+ ../src/spandsp/expose.h /usr/include/jpeglib.h \
+ /usr/include/x86_64-linux-gnu/jconfig.h /usr/include/jmorecfg.h \
+ ../src/spandsp/private/logging.h ../src/spandsp/private/schedule.h \
+ ../src/spandsp/private/bitstream.h ../src/spandsp/private/queue.h \
+ ../src/spandsp/private/agc_float.h ../src/spandsp/private/awgn.h \
+ ../src/spandsp/private/noise.h ../src/spandsp/private/bert.h \
+ ../src/spandsp/private/power_meter.h \
+ ../src/spandsp/private/tone_generate.h \
+ ../src/spandsp/private/bell_r2_mf.h ../src/spandsp/private/sig_tone.h \
+ ../src/spandsp/private/dtmf.h ../src/spandsp/private/g711.h \
+ ../src/spandsp/private/g722.h ../src/spandsp/private/g726.h \
+ ../src/spandsp/private/lpc10.h ../src/spandsp/private/gsm0610.h \
+ ../src/spandsp/private/plc.h ../src/spandsp/private/playout.h \
+ ../src/spandsp/private/oki_adpcm.h ../src/spandsp/private/ima_adpcm.h \
+ ../src/spandsp/private/hdlc.h ../src/spandsp/private/time_scale.h \
+ ../src/spandsp/private/super_tone_tx.h \
+ ../src/spandsp/private/super_tone_rx.h \
+ ../src/spandsp/private/silence_gen.h ../src/spandsp/private/swept_tone.h \
+ ../src/spandsp/private/echo.h ../src/spandsp/private/modem_echo.h \
+ ../src/spandsp/private/async.h ../src/spandsp/private/fsk.h \
+ ../src/spandsp/private/modem_connect_tones.h ../src/spandsp/private/v8.h \
+ ../src/spandsp/private/v80.h ../src/spandsp/private/godard.h \
+ ../src/spandsp/private/v17rx.h ../src/spandsp/private/v17tx.h \
+ ../src/spandsp/private/v22bis.h ../src/spandsp/private/v27ter_rx.h \
+ ../src/spandsp/private/v27ter_tx.h ../src/spandsp/private/v29rx.h \
+ ../src/spandsp/private/v29tx.h ../src/spandsp/private/v42.h \
+ ../src/spandsp/private/v42bis.h ../src/spandsp/private/at_interpreter.h \
+ ../src/spandsp/private/data_modems.h ../src/spandsp/private/fax_modems.h \
+ ../src/spandsp/private/timezone.h ../src/spandsp/private/ssl_fax.h \
+ ../src/spandsp/private/image_translate.h \
+ ../src/spandsp/private/t4_t6_decode.h \
+ ../src/spandsp/private/t4_t6_encode.h \
+ ../src/spandsp/private/t81_t82_arith_coding.h \
+ ../src/spandsp/private/t85.h ../src/spandsp/private/t42.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ ../src/spandsp/private/t43.h ../src/spandsp/private/t4_rx.h \
+ ../src/spandsp/private/t4_tx.h ../src/spandsp/private/t30.h \
+ ../src/spandsp/private/fax.h ../src/spandsp/private/t38_core.h \
+ ../src/spandsp/private/t38_non_ecm_buffer.h \
+ ../src/spandsp/private/t38_gateway.h \
+ ../src/spandsp/private/t38_terminal.h ../src/spandsp/private/t31.h \
+ ../src/spandsp/private/v18.h ../src/spandsp/private/adsi.h \
+ ../src/spandsp/private/ademco_contactid.h ../src/spandsp/private/sprt.h \
+ ../src/spandsp/private/v150_1_sse.h ../src/spandsp/private/v150_1.h \
+ ../spandsp-sim/spandsp/line_models.h
+
+/usr/include/stdc-predef.h:
+
+../src/config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/memory.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/ctype.h:
+
+/usr/include/sndfile.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+../src/spandsp.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+
+/usr/include/x86_64-linux-gnu/tiffio.h:
+
+/usr/include/x86_64-linux-gnu/tiff.h:
+
+/usr/include/x86_64-linux-gnu/tiffconf.h:
+
+/usr/include/x86_64-linux-gnu/tiffvers.h:
+
+../src/spandsp/telephony.h:
+
+../src/spandsp/alloc.h:
+
+../src/spandsp/unaligned.h:
+
+../src/spandsp/fast_convert.h:
+
+../src/spandsp/logging.h:
+
+../src/spandsp/complex.h:
+
+../src/spandsp/bit_operations.h:
+
+../src/spandsp/bitstream.h:
+
+../src/spandsp/queue.h:
+
+../src/spandsp/agc_float.h:
+
+../src/spandsp/schedule.h:
+
+../src/spandsp/g711.h:
+
+../src/spandsp/timing.h:
+
+../src/spandsp/math_fixed.h:
+
+../src/spandsp/vector_float.h:
+
+../src/spandsp/complex_vector_float.h:
+
+../src/spandsp/vector_int.h:
+
+../src/spandsp/complex_vector_int.h:
+
+../src/spandsp/arctan2.h:
+
+../src/spandsp/biquad.h:
+
+../src/spandsp/fir.h:
+
+../src/spandsp/awgn.h:
+
+../src/spandsp/bert.h:
+
+../src/spandsp/power_meter.h:
+
+../src/spandsp/complex_filters.h:
+
+../src/spandsp/dc_restore.h:
+
+../src/spandsp/dds.h:
+
+../src/spandsp/swept_tone.h:
+
+../src/spandsp/echo.h:
+
+../src/spandsp/fir.h:
+
+../src/spandsp/modem_echo.h:
+
+../src/spandsp/crc.h:
+
+../src/spandsp/async.h:
+
+../src/spandsp/hdlc.h:
+
+../src/spandsp/noise.h:
+
+../src/spandsp/saturated.h:
+
+../src/spandsp/time_scale.h:
+
+../src/spandsp/tone_detect.h:
+
+../src/spandsp/tone_generate.h:
+
+../src/spandsp/super_tone_rx.h:
+
+../src/spandsp/super_tone_tx.h:
+
+../src/spandsp/dtmf.h:
+
+../src/spandsp/bell_r2_mf.h:
+
+../src/spandsp/sig_tone.h:
+
+../src/spandsp/fsk.h:
+
+../src/spandsp/modem_connect_tones.h:
+
+../src/spandsp/silence_gen.h:
+
+../src/spandsp/v8.h:
+
+../src/spandsp/v80.h:
+
+../src/spandsp/godard.h:
+
+../src/spandsp/v29rx.h:
+
+../src/spandsp/v29tx.h:
+
+../src/spandsp/v17rx.h:
+
+../src/spandsp/v17tx.h:
+
+../src/spandsp/v22bis.h:
+
+../src/spandsp/v27ter_rx.h:
+
+../src/spandsp/v27ter_tx.h:
+
+../src/spandsp/v42.h:
+
+../src/spandsp/v42bis.h:
+
+../src/spandsp/v18.h:
+
+../src/spandsp/timezone.h:
+
+../src/spandsp/ssl_fax.h:
+
+../src/spandsp/t4_rx.h:
+
+../src/spandsp/t4_tx.h:
+
+../src/spandsp/image_translate.h:
+
+../src/spandsp/t4_t6_decode.h:
+
+../src/spandsp/t4_t6_encode.h:
+
+../src/spandsp/t81_t82_arith_coding.h:
+
+../src/spandsp/t85.h:
+
+../src/spandsp/t42.h:
+
+../src/spandsp/t43.h:
+
+../src/spandsp/t30.h:
+
+../src/spandsp/t30_api.h:
+
+../src/spandsp/t30_fcf.h:
+
+../src/spandsp/t30_logging.h:
+
+../src/spandsp/t35.h:
+
+../src/spandsp/at_interpreter.h:
+
+../src/spandsp/data_modems.h:
+
+../src/spandsp/fax_modems.h:
+
+../src/spandsp/fax.h:
+
+../src/spandsp/t38_core.h:
+
+../src/spandsp/t38_non_ecm_buffer.h:
+
+../src/spandsp/t38_gateway.h:
+
+../src/spandsp/t38_terminal.h:
+
+../src/spandsp/t31.h:
+
+../src/spandsp/adsi.h:
+
+../src/spandsp/ademco_contactid.h:
+
+../src/spandsp/oki_adpcm.h:
+
+../src/spandsp/ima_adpcm.h:
+
+../src/spandsp/g722.h:
+
+../src/spandsp/g726.h:
+
+../src/spandsp/lpc10.h:
+
+../src/spandsp/gsm0610.h:
+
+../src/spandsp/plc.h:
+
+../src/spandsp/playout.h:
+
+../src/spandsp/sprt.h:
+
+../src/spandsp/v150_1.h:
+
+../src/spandsp/v150_1_sse.h:
+
+../spandsp-sim/spandsp-sim.h:
+
+../spandsp-sim/spandsp/g1050.h:
+
+../spandsp-sim/spandsp/rfc2198_sim.h:
+
+../spandsp-sim/spandsp/test_utils.h:
+
+../spandsp-sim/spandsp/line_model.h:
+
+../src/spandsp/expose.h:
+
+/usr/include/jpeglib.h:
+
+/usr/include/x86_64-linux-gnu/jconfig.h:
+
+/usr/include/jmorecfg.h:
+
+../src/spandsp/private/logging.h:
+
+../src/spandsp/private/schedule.h:
+
+../src/spandsp/private/bitstream.h:
+
+../src/spandsp/private/queue.h:
+
+../src/spandsp/private/agc_float.h:
+
+../src/spandsp/private/awgn.h:
+
+../src/spandsp/private/noise.h:
+
+../src/spandsp/private/bert.h:
+
+../src/spandsp/private/power_meter.h:
+
+../src/spandsp/private/tone_generate.h:
+
+../src/spandsp/private/bell_r2_mf.h:
+
+../src/spandsp/private/sig_tone.h:
+
+../src/spandsp/private/dtmf.h:
+
+../src/spandsp/private/g711.h:
+
+../src/spandsp/private/g722.h:
+
+../src/spandsp/private/g726.h:
+
+../src/spandsp/private/lpc10.h:
+
+../src/spandsp/private/gsm0610.h:
+
+../src/spandsp/private/plc.h:
+
+../src/spandsp/private/playout.h:
+
+../src/spandsp/private/oki_adpcm.h:
+
+../src/spandsp/private/ima_adpcm.h:
+
+../src/spandsp/private/hdlc.h:
+
+../src/spandsp/private/time_scale.h:
+
+../src/spandsp/private/super_tone_tx.h:
+
+../src/spandsp/private/super_tone_rx.h:
+
+../src/spandsp/private/silence_gen.h:
+
+../src/spandsp/private/swept_tone.h:
+
+../src/spandsp/private/echo.h:
+
+../src/spandsp/private/modem_echo.h:
+
+../src/spandsp/private/async.h:
+
+../src/spandsp/private/fsk.h:
+
+../src/spandsp/private/modem_connect_tones.h:
+
+../src/spandsp/private/v8.h:
+
+../src/spandsp/private/v80.h:
+
+../src/spandsp/private/godard.h:
+
+../src/spandsp/private/v17rx.h:
+
+../src/spandsp/private/v17tx.h:
+
+../src/spandsp/private/v22bis.h:
+
+../src/spandsp/private/v27ter_rx.h:
+
+../src/spandsp/private/v27ter_tx.h:
+
+../src/spandsp/private/v29rx.h:
+
+../src/spandsp/private/v29tx.h:
+
+../src/spandsp/private/v42.h:
+
+../src/spandsp/private/v42bis.h:
+
+../src/spandsp/private/at_interpreter.h:
+
+../src/spandsp/private/data_modems.h:
+
+../src/spandsp/private/fax_modems.h:
+
+../src/spandsp/private/timezone.h:
+
+../src/spandsp/private/ssl_fax.h:
+
+../src/spandsp/private/image_translate.h:
+
+../src/spandsp/private/t4_t6_decode.h:
+
+../src/spandsp/private/t4_t6_encode.h:
+
+../src/spandsp/private/t81_t82_arith_coding.h:
+
+../src/spandsp/private/t85.h:
+
+../src/spandsp/private/t42.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+../src/spandsp/private/t43.h:
+
+../src/spandsp/private/t4_rx.h:
+
+../src/spandsp/private/t4_tx.h:
+
+../src/spandsp/private/t30.h:
+
+../src/spandsp/private/fax.h:
+
+../src/spandsp/private/t38_core.h:
+
+../src/spandsp/private/t38_non_ecm_buffer.h:
+
+../src/spandsp/private/t38_gateway.h:
+
+../src/spandsp/private/t38_terminal.h:
+
+../src/spandsp/private/t31.h:
+
+../src/spandsp/private/v18.h:
+
+../src/spandsp/private/adsi.h:
+
+../src/spandsp/private/ademco_contactid.h:
+
+../src/spandsp/private/sprt.h:
+
+../src/spandsp/private/v150_1_sse.h:
+
+../src/spandsp/private/v150_1.h:
+
+../spandsp-sim/spandsp/line_models.h:

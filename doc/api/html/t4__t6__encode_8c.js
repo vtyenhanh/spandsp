@@ -1,0 +1,25 @@
+var t4__t6__encode_8c =
+[
+    [ "t4_run_table_entry_t", "structt4__run__table__entry__t.html", "structt4__run__table__entry__t" ],
+    [ "EOLS_TO_END_T4_TX_PAGE", "t4__t6__encode_8c.html#a049f0c515487fc361a4cb7e921f70a10", null ],
+    [ "EOLS_TO_END_T6_TX_PAGE", "t4__t6__encode_8c.html#acd715626951c6cb13edbb2b5476f48c1", null ],
+    [ "pixel_is_black", "t4__t6__encode_8c.html#a2ea5e5a40951de645e07aa113c5b9915", null ],
+    [ "STATE_TRACE", "t4__t6__encode_8c.html#a38a3e616c188bfbd71790ede45d7f587", null ],
+    [ "t4_t6_encode_free", "t4__t6__encode_8c.html#aec26ec7947b30d153fb60e7059b2cc86", null ],
+    [ "t4_t6_encode_get", "t4__t6__encode_8c.html#a648afa2e6b79f0cec81f58445edac107", null ],
+    [ "t4_t6_encode_get_bit", "t4__t6__encode_8c.html#a8cdd14223b756d9efd0c3a062de97e22", null ],
+    [ "t4_t6_encode_get_compressed_image_size", "t4__t6__encode_8c.html#a4e4160e3d87465e3d91a11af69b8a375", null ],
+    [ "t4_t6_encode_get_image_length", "t4__t6__encode_8c.html#acc82771d9583fa6f5a1e51ec398ffff4", null ],
+    [ "t4_t6_encode_get_image_width", "t4__t6__encode_8c.html#a144c412c0a465defcfab362d4c43d1d3", null ],
+    [ "t4_t6_encode_get_logging_state", "t4__t6__encode_8c.html#af4485ad7c1827aaec2b5923668e521e1", null ],
+    [ "t4_t6_encode_image_complete", "t4__t6__encode_8c.html#af915b68e67af7b677af259ac7801eded", null ],
+    [ "t4_t6_encode_init", "t4__t6__encode_8c.html#acf1c43f787a764c00f93ac52b848308c", null ],
+    [ "t4_t6_encode_release", "t4__t6__encode_8c.html#a0ce945ccb08d561dd842525231fb5c5c", null ],
+    [ "t4_t6_encode_restart", "t4__t6__encode_8c.html#ad3ebea18a06ae8f055f36bbf00249ebe", null ],
+    [ "t4_t6_encode_set_encoding", "t4__t6__encode_8c.html#ad44b923b5f7b8a1e2e1bae231bd6bd9d", null ],
+    [ "t4_t6_encode_set_image_length", "t4__t6__encode_8c.html#a7218213600833c17de5c026b2d4a3e46", null ],
+    [ "t4_t6_encode_set_image_width", "t4__t6__encode_8c.html#a67151424479874ccc3487b710c93f347", null ],
+    [ "t4_t6_encode_set_max_2d_rows_per_1d_row", "t4__t6__encode_8c.html#ab39c80577f00857f4f45476810b43594", null ],
+    [ "t4_t6_encode_set_min_bits_per_row", "t4__t6__encode_8c.html#ab8283400b9e9a4eb199e3b44fd9bea8e", null ],
+    [ "t4_t6_encode_set_row_read_handler", "t4__t6__encode_8c.html#ab1ff817389cee3d752b559a5d37faadd", null ]
+];

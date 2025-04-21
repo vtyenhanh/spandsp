@@ -1,0 +1,25 @@
+var structt38__terminal__front__end__state__t =
+[
+    [ "buf", "structt38__terminal__front__end__state__t.html#a4f91895b91c7cbb3226189e482866045", null ],
+    [ "current_rx_type", "structt38__terminal__front__end__state__t.html#adb6a692259bf4a4c621250570933d276", null ],
+    [ "current_tx_data_type", "structt38__terminal__front__end__state__t.html#acb67ec7abee7494e5902e3779f5a475b", null ],
+    [ "current_tx_type", "structt38__terminal__front__end__state__t.html#aba3ec18bf4bf9c31ff18ac9d75cf5db0", null ],
+    [ "extra_bits", "structt38__terminal__front__end__state__t.html#ae851f7c067223d451286869c07b92879", null ],
+    [ "hdlc_rx", "structt38__terminal__front__end__state__t.html#a5745b929d4637c1121adf79a2e011582", null ],
+    [ "hdlc_tx", "structt38__terminal__front__end__state__t.html#ae8649b796f06f95329bc0354b77e8180", null ],
+    [ "len", "structt38__terminal__front__end__state__t.html#ab3164e4b44c8457a2e3dd4e8bb204a79", null ],
+    [ "next_tx_indicator", "structt38__terminal__front__end__state__t.html#a82e92c86cfc57eb72ccfafa2785c7cf3", null ],
+    [ "next_tx_samples", "structt38__terminal__front__end__state__t.html#ae92cf231b5bc08f56f51df0b2b78efaf", null ],
+    [ "non_ecm_trailer_bytes", "structt38__terminal__front__end__state__t.html#a2a7b02b84e2b85398e7f59f3ec876f68", null ],
+    [ "octets_per_data_packet", "structt38__terminal__front__end__state__t.html#a96b4ec7cee56e1898e0d8b2c3a4dbcde", null ],
+    [ "ptr", "structt38__terminal__front__end__state__t.html#a1ef0ed7a0b23a8649c64a751d7957264", null ],
+    [ "queued_timed_step", "structt38__terminal__front__end__state__t.html#ab6a29895d8ff9e89ed48d1a9a5650189", null ],
+    [ "rx_data_missing", "structt38__terminal__front__end__state__t.html#a0eb52f2b1a8dbfb8ed4bd0a621cf0b7a", null ],
+    [ "rx_signal_present", "structt38__terminal__front__end__state__t.html#a920f4b5c74a22ce060bf6d780de5c7e3", null ],
+    [ "samples", "structt38__terminal__front__end__state__t.html#af43689251aeb2fe163bd90cb080297c8", null ],
+    [ "t38", "structt38__terminal__front__end__state__t.html#a78a5d583bdf5271257386936820606cf", null ],
+    [ "timed_step", "structt38__terminal__front__end__state__t.html#af9338ad08a6019db34927ebb2a207055", null ],
+    [ "timeout_rx_samples", "structt38__terminal__front__end__state__t.html#ae62aba97fe9f0a40b5f49cd5a4bce084", null ],
+    [ "timeout_tx_samples", "structt38__terminal__front__end__state__t.html#a45220542fa8a8c4dc399068d07106db6", null ],
+    [ "tx_bit_rate", "structt38__terminal__front__end__state__t.html#aba6112acd080062adabf15649a883f30", null ]
+];

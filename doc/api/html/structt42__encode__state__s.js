@@ -1,0 +1,27 @@
+var structt42__encode__state__s =
+[
+    [ "buf_size", "structt42__encode__state__s.html#ac3a149816a8de5019a7b11e56c4cba17", null ],
+    [ "compressed_buf", "structt42__encode__state__s.html#abf63a826d0c15ff0741a1756992bc218", null ],
+    [ "compressed_image_ptr", "structt42__encode__state__s.html#a0d61b1bc41e47b3deac7e9eb8da6bd84", null ],
+    [ "compressed_image_size", "structt42__encode__state__s.html#a6ce84cc7153be47e02a4b65a3695e25e", null ],
+    [ "compressor", "structt42__encode__state__s.html#a679b435fe4ca6db2b784728a53e2f5ae", null ],
+    [ "error_message", "structt42__encode__state__s.html#a00a43ec7026f976625f5ab836902b1e7", null ],
+    [ "escape", "structt42__encode__state__s.html#a6372a2769ea4c694723e23f30837d51e", null ],
+    [ "illuminant_code", "structt42__encode__state__s.html#a7c379eb0b49559b89d9fd334aa9c3f6f", null ],
+    [ "illuminant_colour_temperature", "structt42__encode__state__s.html#aed28c5b41bf88191cf853d3ac99904fd", null ],
+    [ "image_length", "structt42__encode__state__s.html#a945a31034626a750115c4e40b5d750c1", null ],
+    [ "image_type", "structt42__encode__state__s.html#adaa9012c163459c484f369aa93d5be25", null ],
+    [ "image_width", "structt42__encode__state__s.html#a866bc7c641bf6828b9b97f30188a32cb", null ],
+    [ "itu_ycc", "structt42__encode__state__s.html#aaef96b338314740c22ce298b2f4221d0", null ],
+    [ "lab", "structt42__encode__state__s.html#ab76c9601670f1cb78abb53287467ecf4", null ],
+    [ "logging", "structt42__encode__state__s.html#ad65019317b318283d21228e1bd30ddc0", null ],
+    [ "no_subsampling", "structt42__encode__state__s.html#ae554c45b1f3135c9d013958f6c85ad47", null ],
+    [ "out", "structt42__encode__state__s.html#a9123ff49646129bcde9d400db2a1984d", null ],
+    [ "quality", "structt42__encode__state__s.html#a4966bc64921a11caab7dd0c35fa4c2c9", null ],
+    [ "row_read_handler", "structt42__encode__state__s.html#af8c58a8d6895e4d7d3514f75fde69ace", null ],
+    [ "row_read_user_data", "structt42__encode__state__s.html#adf1dd016217b116e240ae7e6883008fc", null ],
+    [ "samples_per_pixel", "structt42__encode__state__s.html#ae0d52eb4f26f7fd68c833b5a73f0841f", null ],
+    [ "scan_line_in", "structt42__encode__state__s.html#a3ac496068366fdb856a919df3822c025", null ],
+    [ "scan_line_out", "structt42__encode__state__s.html#a2b42033599288d2e23c4e070e1b92254", null ],
+    [ "spatial_resolution", "structt42__encode__state__s.html#ac6996157520a2eb4e9e45ffde2d1159e", null ]
+];

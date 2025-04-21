@@ -1,0 +1,696 @@
+Using T.38 version 1
+B: Real time frame handler - T.30->line, NSF, length = 15
+B: Real time frame handler - T.30->line, CSI, length = 23
+A: Real time frame handler - line->T.30, NSF, length = 15
+B: Real time frame handler - T.30->line, DIS, length = 17
+A: Real time frame handler - line->T.30, CSI, length = 23
+A: Real time frame handler - line->T.30, DIS, length = 17
+A: Phase B handler - (0x80) DIS
+A: Phase B: Remote ident '22222222'
+A: Phase B: Remote was made in 'Hong Kong'
+A: Phase B remote ident '22222222'
+A: Phase B: NSF 12 bytes
+A: Real time frame handler - T.30->line, TSI, length = 23
+A: Real time frame handler - T.30->line, SUB, length = 23
+B: Real time frame handler - line->T.30, TSI, length = 23
+A: Real time frame handler - T.30->line, SID, length = 23
+B: Real time frame handler - line->T.30, SUB, length = 23
+A: Real time frame handler - T.30->line, DCS, length = 10
+B: Real time frame handler - line->T.30, SID, length = 23
+B: Real time frame handler - line->T.30, DCS, length = 10
+B: Phase B handler - (0x83) DCS
+B: Phase B: Remote ident '11111111'
+B: Phase B: Remote sub-address 'Sub-address 1'
+B: Phase B: Remote sender ident 'Sender ID 1'
+B: Phase B remote ident '11111111'
+B: Phase B: remote sub-address 'Sub-address 1'
+B: Phase B: remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, CFR, length = 3
+A: Real time frame handler - line->T.30, CFR, length = 3
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 1
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 25981 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 1
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 25982 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 797
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 1, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 2
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 19669 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 2
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 19670 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 498
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 2, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 3
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 40811 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 3
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 40812 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 948
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 3, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 4
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 81828 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 4
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 81829 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 1089
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 4, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 5
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 44170 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 5
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 44171 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 1063
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 5, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 6
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 28259 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 6
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 28260 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 499
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 6, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 7
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 81479 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 7
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 81480 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 766
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 7, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 8
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 33027 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 8
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 33028 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 2382 pels (1728 pels x 2382 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 398
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 8, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 9
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 17125 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 1760 pels (1728 pels x 1760 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 9
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 17126 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 1760 pels (1728 pels x 1760 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 553
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 9, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 10
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 28278 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 10
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 28279 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 646
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 10, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, MPS, length = 3
+B: Real time frame handler - line->T.30, MPS, length = 3
+B: Phase D handler - (0x4E) MPS
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 11
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 23664 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 11
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 23665 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 429
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 11, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Document handler - event 0
+A: Real time frame handler - T.30->line, EOP, length = 3
+B: Real time frame handler - line->T.30, EOP, length = 3
+B: Phase D handler - (0x2E) EOP
+B: Phase D: Page statistics
+B: Phase D:   Pages in the file 12
+B: Phase D:   Bad rows 0, longest bad row run 0
+B: Phase D:   Bad ECM frames 0
+B: Phase D:   Compression type T.4 2-D (4)
+B: Phase D:   Compressed image size 59062 bytes
+B: Phase D:   Image type bi-level (bi-level in the file)
+B: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+B: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8040 pels/m x 7700 pels/m in the file)
+B: Phase D:   Bits per row - min 0, max 0
+B: Phase D: Bit rate 14400
+B: Phase D: ECM off
+B: Phase D: RTP events 0. RTN events 0
+B: Phase D: Tx pages 0, rx pages 12
+B: Phase D: Local ident '22222222'
+B: Phase D: Local sub-address 'Sub-address 2'
+B: Phase D: Local polled sub-address 'Polled sub-add 2'
+B: Phase D: Local selective polling address 'Select poll add 2'
+B: Phase D: Local sender ident 'Sender ID 2'
+B: Phase D: Local password 'Password 2'
+B: Phase D: Remote ident '11111111'
+B: Phase D: Remote sub-address 'Sub-address 1'
+B: Phase D: Remote sender ident 'Sender ID 1'
+B: Real time frame handler - T.30->line, MCF, length = 3
+A: Real time frame handler - line->T.30, MCF, length = 3
+A: Phase D handler - (0x8C) MCF
+A: Phase D: Page statistics
+A: Phase D:   Pages in the file 12
+A: Phase D:   Bad rows 0, longest bad row run 0
+A: Phase D:   Bad ECM frames 0
+A: Phase D:   Compression type T.4 2-D (4)
+A: Phase D:   Compressed image size 59063 bytes
+A: Phase D:   Image type bi-level (bi-level in the file)
+A: Phase D:   Image size 1728 pels x 1751 pels (1728 pels x 1751 pels in the file)
+A: Phase D:   Image resolution 8040 pels/m x 7700 pels/m (8031 pels/m x 7716 pels/m in the file)
+A: Phase D:   Bits per row - min 14, max 926
+A: Phase D: Bit rate 14400
+A: Phase D: ECM off
+A: Phase D: RTP events 0. RTN events 0
+A: Phase D: Tx pages 12, rx pages 0
+A: Phase D: Local ident '11111111'
+A: Phase D: Local sub-address 'Sub-address 1'
+A: Phase D: Local polled sub-address 'Polled sub-add 1'
+A: Phase D: Local selective polling address 'Select poll add 1'
+A: Phase D: Local sender ident 'Sender ID 1'
+A: Phase D: Local password 'Password 1'
+A: Phase D: Remote ident '22222222'
+A: Phase D: Remote was made in 'Hong Kong'
+A: Real time frame handler - T.30->line, DCN, length = 3
+B: Real time frame handler - line->T.30, DCN, length = 3
+B: Phase E handler - (0) OK
+B: Phase E: Bit rate 14400
+B: Phase E: ECM off
+B: Phase E: RTP events 0. RTN events 0
+B: Phase E: Tx pages 0, rx pages 12
+B: Phase E: Local ident '22222222'
+B: Phase E: Local sub-address 'Sub-address 2'
+B: Phase E: Local polled sub-address 'Polled sub-add 2'
+B: Phase E: Local selective polling address 'Select poll add 2'
+B: Phase E: Local sender ident 'Sender ID 2'
+B: Phase E: Local password 'Password 2'
+B: Phase E: Remote ident '11111111'
+B: Phase E: Remote sub-address 'Sub-address 1'
+B: Phase E: Remote sender ident 'Sender ID 1'
+A: Phase E handler - (0) OK
+A: Phase E: Bit rate 14400
+A: Phase E: ECM off
+A: Phase E: RTP events 0. RTN events 0
+A: Phase E: Tx pages 12, rx pages 0
+A: Phase E: Local ident '11111111'
+A: Phase E: Local sub-address 'Sub-address 1'
+A: Phase E: Local polled sub-address 'Polled sub-add 1'
+A: Phase E: Local selective polling address 'Select poll add 1'
+A: Phase E: Local sender ident 'Sender ID 1'
+A: Phase E: Local password 'Password 1'
+A: Phase E: Remote ident '22222222'
+A: Phase E: Remote was made in 'Hong Kong'
+T.33 sub-address packing/unpacking tests
+'#1234567890#1234'
+SST '1234567890'
+    EXT '1234'
+'1234#5678#8910'
+    EXT '1234'
+    EXT '5678'
+    EXT '8910'
+'#6174444100#1234#567'
+SST '6174444100'
+    EXT '1234'
+    EXT '567'
+'1234#5678##2032223'
+    EXT '1234'
+    EXT '5678'
+SST '2032223'
+'#2037445555##6446666'
+SST '2037445555'
+SST '6446666'
+'#2037445555#1234##6446666#5678'
+SST '2037445555'
+    EXT '1234'
+SST '6446666'
+    EXT '5678'
+Tests passed

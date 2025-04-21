@@ -1,0 +1,25 @@
+var v42bis_8c =
+[
+    [ "COMPRESSIBILITY_MONITOR", "v42bis_8c.html#aded4fe13b097712cc82ff46ea012be83", null ],
+    [ "COMPRESSIBILITY_MONITOR_HYSTERESIS", "v42bis_8c.html#a4c5b57d178ef079e58f280a270a39053", null ],
+    [ "V42BIS_ESC_STEP", "v42bis_8c.html#a6b12c04848346600ff4607c4d11e998c", null ],
+    [ "V42BIS_N3", "v42bis_8c.html#ab889fa79f1cc4b2d9e2310c1535feb85", null ],
+    [ "V42BIS_N4", "v42bis_8c.html#acbc1b965852d7cbfb1c4994244637396", null ],
+    [ "V42BIS_N5", "v42bis_8c.html#a7e8a52d4e360b878744c763046336b70", null ],
+    [ "V42BIS_N6", "v42bis_8c.html#a535ca01d5acb14d74140147df6243a04", null ],
+    [ "V42BIS_ETM", "v42bis_8c.html#a5e66f304417530ef056f13a6a6dc668aa3873c36f65589defbfc8eb7c5ca89a82", null ],
+    [ "V42BIS_FLUSH", "v42bis_8c.html#a5e66f304417530ef056f13a6a6dc668aae328dfebd5495918f668b3b3d3be4386", null ],
+    [ "V42BIS_STEPUP", "v42bis_8c.html#a5e66f304417530ef056f13a6a6dc668aa4dd1d895d5fdbad681a067b87d6e4522", null ],
+    [ "V42BIS_ECM", "v42bis_8c.html#af77d65ab56b38a820b1efc0bcafbd4fbae7486cb62087865bb895e59832375c6c", null ],
+    [ "V42BIS_EID", "v42bis_8c.html#af77d65ab56b38a820b1efc0bcafbd4fba039c7907fcda5dc93faa1172809e10a1", null ],
+    [ "V42BIS_RESET", "v42bis_8c.html#af77d65ab56b38a820b1efc0bcafbd4fba9ae38497835e4c8b42fd9bd8dc95a718", null ],
+    [ "v42bis_compress", "v42bis_8c.html#a7a831527b8ce65fc216e67a0731392c9", null ],
+    [ "v42bis_compress_flush", "v42bis_8c.html#aa99c3bb2aaf5e01de66d8f2ba86a8ae0", null ],
+    [ "v42bis_compression_control", "v42bis_8c.html#a7aef569f365f2c3d0662a9ed58337405", null ],
+    [ "v42bis_decompress", "v42bis_8c.html#aea17bb3331dce641bed52063a96331cc", null ],
+    [ "v42bis_decompress_flush", "v42bis_8c.html#a6e0e889e40f1b3ad520f272ab6beb744", null ],
+    [ "v42bis_free", "v42bis_8c.html#ad39c6ceed69d4798b5a611e6346bdbb3", null ],
+    [ "v42bis_get_logging_state", "v42bis_8c.html#ae4a0a1f91a10aed6995dcd82ce545303", null ],
+    [ "v42bis_init", "v42bis_8c.html#a8ef60875626ed78c088570b998aa868b", null ],
+    [ "v42bis_release", "v42bis_8c.html#abf665054d45010ef6a749275626408cd", null ]
+];

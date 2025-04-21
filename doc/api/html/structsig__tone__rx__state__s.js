@@ -1,0 +1,26 @@
+var structsig__tone__rx__state__s =
+[
+    [ "current_notch_filter", "structsig__tone__rx__state__s.html#aae7867a4630b65496c9fa0e9cbed710f", null ],
+    [ "current_rx_tone", "structsig__tone__rx__state__s.html#adbc0818a119161826e95a7d75faf9cf7", null ],
+    [ "desc", "structsig__tone__rx__state__s.html#a8c6902c6a18ca9098cbab49a98803180", null ],
+    [ "detection_ratio", "structsig__tone__rx__state__s.html#aed13216469c70064d16485e55d73dcd2", null ],
+    [ "flat_detection_threshold", "structsig__tone__rx__state__s.html#a8c8ba7cfab92d8fc7cf12513dfefb4c8", null ],
+    [ "flat_mode", "structsig__tone__rx__state__s.html#a6e449e3842374f7438d31529d66b6a25", null ],
+    [ "flat_mode_timeout", "structsig__tone__rx__state__s.html#ac05cbb32c3cb867fb02974034fb94d4d", null ],
+    [ "flat_power", "structsig__tone__rx__state__s.html#a6bd49467d666083f8015d28314ac7db0", null ],
+    [ "flat_z", "structsig__tone__rx__state__s.html#af6f2db9e03c9375f5f0d501743f3bfca", null ],
+    [ "high_low_timer", "structsig__tone__rx__state__s.html#ae80a1fa37f2e240c0bee06a5edd85ca0", null ],
+    [ "last_sample_tone_present", "structsig__tone__rx__state__s.html#a5684e3f50e740b4465392c288f6b0575", null ],
+    [ "notch_enabled", "structsig__tone__rx__state__s.html#a81369e06a98c278b0b59e84176a25051", null ],
+    [ "notch_insertion_timeout", "structsig__tone__rx__state__s.html#a3c9044ef3d9c2e862c3abf8097995bcb", null ],
+    [ "notch_z1", "structsig__tone__rx__state__s.html#a692ee9c1f1767cbb04bcb24cb8c4da3c", null ],
+    [ "notch_z2", "structsig__tone__rx__state__s.html#aaf5ddac99154284eb7b1e2ddeb934499", null ],
+    [ "power", "structsig__tone__rx__state__s.html#ad5584adfb7106da4386d7311c9a60ef6", null ],
+    [ "sharp_detection_threshold", "structsig__tone__rx__state__s.html#ab64a93f7f0092fd852fe91c0406a1479", null ],
+    [ "sig_update", "structsig__tone__rx__state__s.html#a2e7909b6a37ad0152b60fcb5c75be825", null ],
+    [ "signalling_state", "structsig__tone__rx__state__s.html#ac3f37efd77b007b81280841926149c3a", null ],
+    [ "signalling_state_duration", "structsig__tone__rx__state__s.html#a4fc8d307e31e1e01afbf21a923aad1b7", null ],
+    [ "tone", "structsig__tone__rx__state__s.html#abd913575d2b2c0e23b3d0bb32f4b44e2", null ],
+    [ "tone_persistence_timeout", "structsig__tone__rx__state__s.html#af8bbc06566b0d559691545991c11f844", null ],
+    [ "user_data", "structsig__tone__rx__state__s.html#a357cab7216f1cf2a13b3a085e35c3189", null ]
+];

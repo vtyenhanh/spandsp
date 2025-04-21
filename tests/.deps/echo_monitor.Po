@@ -1,0 +1,6 @@
+echo_monitor.o: echo_monitor.cpp /usr/include/stdc-predef.h \
+ ../src/config.h
+
+/usr/include/stdc-predef.h:
+
+../src/config.h:

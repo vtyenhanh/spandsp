@@ -1,0 +1,26 @@
+var structt30__stats__t =
+[
+    [ "bad_rows", "structt30__stats__t.html#abf2d4fee8edbc7795c35908555acd35e", null ],
+    [ "bit_rate", "structt30__stats__t.html#a13871d76876ab8d8d8cf79611bfe3d19", null ],
+    [ "compression", "structt30__stats__t.html#abfbf9bed8920bd7df0694ef6873242e6", null ],
+    [ "current_status", "structt30__stats__t.html#a29268994b6330d0ba6e7f61da9baa7bb", null ],
+    [ "error_correcting_mode", "structt30__stats__t.html#a585a2f8c576c8a4d1b5138829399abe8", null ],
+    [ "error_correcting_mode_retries", "structt30__stats__t.html#a068b760f86ac309a15f93c38720d18a5", null ],
+    [ "image_length", "structt30__stats__t.html#a9474839d9bad1121888e30de794b6e15", null ],
+    [ "image_size", "structt30__stats__t.html#a27d2c74e55cd3d685ef15e1dc1c35b9b", null ],
+    [ "image_type", "structt30__stats__t.html#a4cc6397179ccc4dfafd1413a20ff8b78", null ],
+    [ "image_width", "structt30__stats__t.html#a2efe8a0f57e393751b76c52a325aa89c", null ],
+    [ "image_x_resolution", "structt30__stats__t.html#abb1f7113a0102ca4ea8438c52bd2266e", null ],
+    [ "image_y_resolution", "structt30__stats__t.html#ac79a9940519bc3023b14234aa778374c", null ],
+    [ "length", "structt30__stats__t.html#a80d1e5d0900650efed2921e6a61216e5", null ],
+    [ "longest_bad_row_run", "structt30__stats__t.html#a5f2bc5c0e7e34037c2625001081c1127", null ],
+    [ "pages_in_file", "structt30__stats__t.html#a84ce06fddf834b5aba3f8e961b7fad4a", null ],
+    [ "pages_rx", "structt30__stats__t.html#ac59015c7873c86e2ef55eccc1b1f96f4", null ],
+    [ "pages_tx", "structt30__stats__t.html#a8f55f85e23e3c10c32541705691d6d3c", null ],
+    [ "rtn_events", "structt30__stats__t.html#a8ec52fefb9f14c1bbfd4460cd7bdab47", null ],
+    [ "rtp_events", "structt30__stats__t.html#adeffeb157a7507db72aa9874bfdbfc5f", null ],
+    [ "type", "structt30__stats__t.html#a37fbc4c4d334063aa9f0e0b46031a1d5", null ],
+    [ "width", "structt30__stats__t.html#a2bd2ef7d3449b31239f5c49fea21b108", null ],
+    [ "x_resolution", "structt30__stats__t.html#abc8838b64aa2774d30fb51ef4f5282a0", null ],
+    [ "y_resolution", "structt30__stats__t.html#a6ba9f4c1402a37ac23e2dadaeea51229", null ]
+];

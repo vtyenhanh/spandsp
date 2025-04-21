@@ -1,0 +1,28 @@
+var structv42bis__comp__state__t =
+[
+    [ "bit_buffer", "structv42bis__comp__state__t.html#a63b85a2ab3a75cbf27cd34520b27e26a", null ],
+    [ "bit_count", "structv42bis__comp__state__t.html#aa207093cb4712e412f8864f603f8c38e", null ],
+    [ "compression_mode", "structv42bis__comp__state__t.html#ae7c703a5d26bd4a0871e616efbb2d471", null ],
+    [ "compression_performance", "structv42bis__comp__state__t.html#a5a58ea38b6bbec48b28290fb86be90c5", null ],
+    [ "dict", "structv42bis__comp__state__t.html#a2fe607607c3c5ced278265032c8865c4", null ],
+    [ "escape_code", "structv42bis__comp__state__t.html#abe3d183f00a5d1062bf88c07377cb6d1", null ],
+    [ "escaped", "structv42bis__comp__state__t.html#a4a49f09dc82081e484fd861d7c97e1f5", null ],
+    [ "flushed_length", "structv42bis__comp__state__t.html#a9a643df8966b65f3549b0dd2727cd66c", null ],
+    [ "handler", "structv42bis__comp__state__t.html#a2ee76795a5f3ccb777ce83b889e6566f", null ],
+    [ "last_added", "structv42bis__comp__state__t.html#af727292d640b93f86d5f097b3d67726a", null ],
+    [ "last_matched", "structv42bis__comp__state__t.html#a00d45f28367473dc5e4b32f4a1864b7d", null ],
+    [ "max_output_len", "structv42bis__comp__state__t.html#a06ea2563534d02e8775f726ae61bfd85", null ],
+    [ "output_buf", "structv42bis__comp__state__t.html#a94ae9fd817a72b018e045e531553742e", null ],
+    [ "output_octet_count", "structv42bis__comp__state__t.html#a309dc0c6e7119284d56861aa4438126b", null ],
+    [ "string", "structv42bis__comp__state__t.html#abf7618550a7608737e057f7e986a53cb", null ],
+    [ "string_length", "structv42bis__comp__state__t.html#a8ce312cee8cdd0677e454b2c9feb9ace", null ],
+    [ "transparent", "structv42bis__comp__state__t.html#a2584eb465b902871f369b6e59c1805c0", null ],
+    [ "update_at", "structv42bis__comp__state__t.html#ae9710fd8c5ff0f46533f0dd819f16fea", null ],
+    [ "user_data", "structv42bis__comp__state__t.html#a0ea209fad0115586be0e24fecd3ce7c4", null ],
+    [ "v42bis_parm_c1", "structv42bis__comp__state__t.html#a9a761230114c7b8d3ad5968b2fa60386", null ],
+    [ "v42bis_parm_c2", "structv42bis__comp__state__t.html#ad2b66a801e82ab04e05aea38e4f21470", null ],
+    [ "v42bis_parm_c3", "structv42bis__comp__state__t.html#a5e5622e1b0710835e6f02172e7f58073", null ],
+    [ "v42bis_parm_n2", "structv42bis__comp__state__t.html#a4ff46e90b1d50f06900134ce00a0fa4d", null ],
+    [ "v42bis_parm_n7", "structv42bis__comp__state__t.html#aea111104e602bf0a5e322091e7ec6d08", null ],
+    [ "v42bis_parm_p0", "structv42bis__comp__state__t.html#a7f603c8826703080b29c9c2bb997c6ca", null ]
+];

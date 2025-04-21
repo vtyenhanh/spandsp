@@ -1,0 +1,27 @@
+var structv17__tx__state__s =
+[
+    [ "baud_phase", "structv17__tx__state__s.html#ae26065c4623cba0458404549b007b6c3", null ],
+    [ "bit_rate", "structv17__tx__state__s.html#ab2c67878a53e3f3805ddbaaac8d838e0", null ],
+    [ "bits_per_symbol", "structv17__tx__state__s.html#ac217232264657fb80e1c277f521cfc1e", null ],
+    [ "carrier_phase", "structv17__tx__state__s.html#a99068a68a23ba430dab8bca78b9c034c", null ],
+    [ "carrier_phase_rate", "structv17__tx__state__s.html#a11654e4c3a34d5c642552f060992499b", null ],
+    [ "constellation", "structv17__tx__state__s.html#aa0e71d9244266454a6212dc8adea5a0d", null ],
+    [ "constellation_state", "structv17__tx__state__s.html#af2ad6d720b3f105ce8557fd112fd8e96", null ],
+    [ "convolution", "structv17__tx__state__s.html#a5f656872b6d966fa8cd67843934a44ee", null ],
+    [ "current_get_bit", "structv17__tx__state__s.html#ada70430e099a1c02867b044ad78c174d", null ],
+    [ "diff", "structv17__tx__state__s.html#aa0877bbeb4e6f30ff6c673d4f21a2cd2", null ],
+    [ "gain", "structv17__tx__state__s.html#af9bcfa6d1aee51b1626d6a6e8b2ee8a0", null ],
+    [ "get_bit", "structv17__tx__state__s.html#aef5068c21fa3150017dcdea5f2eaec2c", null ],
+    [ "get_bit_user_data", "structv17__tx__state__s.html#a0675c878940135e93daf8eb8077f824c", null ],
+    [ "in_training", "structv17__tx__state__s.html#aac4dfc26e8b13f9547069a5560532c41", null ],
+    [ "logging", "structv17__tx__state__s.html#a7b6a3aeee3cbc3a60be4046ac2d14f11", null ],
+    [ "rrc_filter_im", "structv17__tx__state__s.html#afc29184388f0aea464ecf5fe6f006939", null ],
+    [ "rrc_filter_re", "structv17__tx__state__s.html#a83c65a71bc057e273e8b0a0a0bd8eba4", null ],
+    [ "rrc_filter_step", "structv17__tx__state__s.html#a2b44b845ccc50d982a97c43b9f50025a", null ],
+    [ "scramble_reg", "structv17__tx__state__s.html#a3162b20481f2244f7cdd45f1c535b2f7", null ],
+    [ "scrambler_tap", "structv17__tx__state__s.html#af511d77594c5179cd6c97b9390c6e50d", null ],
+    [ "short_train", "structv17__tx__state__s.html#ac89b844fa3b15127f5ef9576aad6a83c", null ],
+    [ "status_handler", "structv17__tx__state__s.html#af24ecefa889faac6d231ee726654264a", null ],
+    [ "status_user_data", "structv17__tx__state__s.html#a980e86d3f39d95ae5ab0e9bf094981b7", null ],
+    [ "training_step", "structv17__tx__state__s.html#a905103d6919a8677c5519181df828ac0", null ]
+];

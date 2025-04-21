@@ -1,0 +1,27 @@
+var structmeta__t =
+[
+    [ "amax", "structmeta__t.html#a6d1440c94a37d33237543e6375302d08", null ],
+    [ "amin", "structmeta__t.html#a53e8c721b6d90c4ac4bd4e062947945b", null ],
+    [ "bits_per_sample", "structmeta__t.html#af1ba7dfb9e7061bba178be7f6f509a46", null ],
+    [ "bmax", "structmeta__t.html#abb8a77496ccc86b60f19e64d5d5b44df", null ],
+    [ "bmin", "structmeta__t.html#a55b2e81e2c891eb112ad4b054ae37f58", null ],
+    [ "colour_map", "structmeta__t.html#af2c8ba5f474ee8d4e9c7eec586ade5f1", null ],
+    [ "compressed_image_len", "structmeta__t.html#a72ed759624c1178e1f0ea9601b654d50", null ],
+    [ "compression", "structmeta__t.html#adc7662aa7178d499ee79922fb831d93a", null ],
+    [ "image_length", "structmeta__t.html#af0b66aef6947ee97ddd2ea03a2a9beac", null ],
+    [ "image_width", "structmeta__t.html#a2fd60bea58ae7a96470b8f67ff6f73d5", null ],
+    [ "lmax", "structmeta__t.html#a1e71409099126650ecfd77d9c1c717df", null ],
+    [ "lmin", "structmeta__t.html#a5d3fb6eeb7200b17592c1136b03c0414", null ],
+    [ "photometric", "structmeta__t.html#adfe15f7b657f1974188e6bdea87adf46", null ],
+    [ "planar_config", "structmeta__t.html#ae6b4828e3a49668b6f807f0389e7df6b", null ],
+    [ "pre_compressed", "structmeta__t.html#af6a83d4e7be4d9baf5d74fdf0a69a827", null ],
+    [ "resolution_unit", "structmeta__t.html#af328daa08a34d2cbdc07c9e65ab96faa", null ],
+    [ "samples_per_pixel", "structmeta__t.html#a98d0053a6e295535a247001d3936d46c", null ],
+    [ "tif", "structmeta__t.html#aee8ac0986d5dd668c1d638c59a9a3771", null ],
+    [ "tile_length", "structmeta__t.html#a8af126d01d445ebcca193f34a4d8aa45", null ],
+    [ "tile_width", "structmeta__t.html#aab2b015ccbb0c2aa0a23dd19415c38bf", null ],
+    [ "x_resolution", "structmeta__t.html#a70b3b6c247fa828eb9a599203eeb04b6", null ],
+    [ "y_resolution", "structmeta__t.html#af482457898de0a12a417e8d1a3f96906", null ],
+    [ "YCbCrSubsampleHoriz", "structmeta__t.html#a746156a965a6db01c50a376cbf22027b", null ],
+    [ "YCbCrSubsampleVert", "structmeta__t.html#af5db21ff7871c859a78350728486e392", null ]
+];
