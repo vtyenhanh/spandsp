@@ -1,0 +1,56 @@
+# .dockerignore for the GitHub Copilot Agent environment
+# This helps optimize the Docker build by excluding unnecessary files
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# GitHub workflows and other GitHub files (except agents)
+.github/workflows
+.github/docker
+
+# Build artifacts
+*.o
+*.lo
+*.la
+*.so
+*.so.*
+*.a
+.libs
+.deps
+*.deb
+*.rpm
+
+# Autotools generated files
+autom4te.cache
+config.log
+config.status
+Makefile
+Makefile.in
+aclocal.m4
+configure
+libtool
+stamp-h1
+
+# Test data and results
+test-data
+*.log
+*.trs
+
+# Documentation build artifacts
+doc/api
+*.pdf
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Other
+*.tar.gz
+*.zip
+OUT
