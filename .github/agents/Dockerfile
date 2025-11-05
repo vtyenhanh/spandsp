@@ -52,9 +52,6 @@ RUN apt-get update && apt-get install -y \
     libldap2-dev \
     libogg-dev \
     libvorbis-dev \
-    libical-dev \
-    libsrtp2-dev \
-    libspandsp-dev \
     # Network tools for testing
     iproute2 \
     iputils-ping \
