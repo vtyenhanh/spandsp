@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Quick validation script for the Copilot Agent environment Dockerfile
 # This script performs basic syntax checking without building the full image
 

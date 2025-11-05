@@ -41,7 +41,6 @@ RUN apt-get update && apt-get install -y \
     libgsm1-dev \
     libpopt-dev \
     libresample1-dev \
-    libspandsp-dev \
     libcurl4-openssl-dev \
     libical-dev \
     libneon27-dev \
@@ -124,8 +123,7 @@ RUN wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-21-curre
     rm -rf asterisk-21* asterisk-21-current.tar.gz
 
 # Configure network namespace capability
-# Add capabilities needed for network namespace operations
-RUN setcap cap_net_admin,cap_net_raw+ep /usr/sbin/ip || true
+# Capabilities are managed by the container runtime (--cap-add=NET_ADMIN)
 
 # Create a helper script for network namespace testing
 RUN echo '#!/bin/bash' > /usr/local/bin/test-netns.sh && \
